@@ -47,8 +47,8 @@ rock-paper-scissors-game/ │
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/Panchal-dev/rock-paper-scissors-game.git
-   Open the Project Folder in Your Code Editor
    ```
+   Open the Project Folder in Your Code Editor
 
 Run the Game
 Open index.html in your browser
