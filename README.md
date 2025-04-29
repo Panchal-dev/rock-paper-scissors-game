@@ -7,9 +7,7 @@ A fun and interactive **Rock Paper Scissors** game built using **HTML**, **CSS**
 ## 🔗 Live Demo
 
 🎮 **Play Now**:  
-👉 [rock-paper-scissors-game-web.netlify.app](https://rock-paper-scissors-game-web.netlify.app/)
-
----
+👉 <a href="https://rock-paper-scissors-game-web.netlify.app" target="_blank">rock-paper-scissors-game-web.netlify.app</a>
 
 ## 📌 Features
 
@@ -34,12 +32,12 @@ A fun and interactive **Rock Paper Scissors** game built using **HTML**, **CSS**
 ## 📂 Folder Structure
 
 ```
-rock-paper-scissors-game/ │
-├── index.html # Main HTML structure
-├── styles.css # All styling rules
-├── app.js # JavaScript game logic
-├── images/ # Rock, Paper, Scissors icons
-└── README.md # Project documentation
+rock-paper-scissors-game/
+    ├── index.html # Main HTML structure
+    ├── styles.css # All styling rules
+    ├── app.js # JavaScript game logic
+    ├── images/ # Rock, Paper, Scissors icons
+    └── README.md # Project documentation
 ```
 
 ---
