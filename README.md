@@ -1,4 +1,4 @@
-# Rock Paper Scissors Game ✂️📄
+# 🧱Rock 📄Paper ✂️Scissors Game
 
 A fun and interactive **Rock Paper Scissors** game built using **HTML**, **CSS**, and **JavaScript**.
 
@@ -33,15 +33,12 @@ A fun and interactive **Rock Paper Scissors** game built using **HTML**, **CSS**
 
 ## 📂 Folder Structure
 
-rock-paper-scissors-game/ │ ├── index.html # Main HTML structure
+rock-paper-scissors-game/ │
+├── index.html # Main HTML structure
 ├── styles.css # All styling rules
 ├── app.js # JavaScript game logic
 ├── images/ # Rock, Paper, Scissors icons
 └── README.md # Project documentation
-
-yaml
-Copy
-Edit
 
 ---
 
