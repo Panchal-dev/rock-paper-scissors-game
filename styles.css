@@ -1,0 +1,78 @@
+/*@ 🎨 Reset all default spacing & center text */
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/*# 🧢 Style the main heading */
+h1 {
+  background-color: #081b31; /*$ 🔵 Dark blue background */
+  color: #fff; /*% ⚪ White text */
+  height: 5rem; /*~ ⬆️ Fixed height */
+  line-height: 5rem; /*^ 📏 Vertically center text */
+}
+
+/*& 🧩 Layout for game choices */
+.choices {
+  display: flex; /*# 📦 Flex layout for children */
+  align-items: center; /*~ ⬆️ Vertically center */
+  justify-content: center; /*+ ➡️ Horizontally center */
+  gap: 3rem; /*= 🧱 Space between boxes */
+  margin-top: 5rem; /*! 📏 Top margin */
+}
+
+/*! ⚪ Common style for each choice box */
+.choice {
+  height: 165px;
+  width: 165px;
+  border-radius: 50%; /*& 🟢 Make it circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*$ 🖼️ Style images inside choices */
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover; /*# 🧩 Fit image properly */
+  border-radius: 50%; /*@ 🟢 Circular image */
+}
+
+/*% 🖱️ Hover effect on choices */
+.choice:hover {
+  cursor: pointer;
+  background-color: #081b31; /*= 🔵 Dark blue background on hover */
+}
+
+/*+ 📊 Scoreboard layout */
+.score-board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem; /*^ 🧱 Space between user and comp */
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+/*! 🔢 Big score numbers */
+#user-score,
+#comp-score {
+  font-size: 4rem;
+}
+
+/*~ 📨 Message area box */
+.msg-container {
+  margin-top: 5rem;
+}
+
+/*@ 🗨️ Message style */
+#msg {
+  background-color: #081b31; /*$ 🔵 Blue background */
+  font-size: 2rem; /*% 🔠 Bigger text */
+  color: #fff; /*! ⚪ White text */
+  border-radius: 1rem; /*# 🔲 Rounded corners */
+  padding: 1rem;
+  display: inline; /*& 🧱 Only as wide as content */
+}

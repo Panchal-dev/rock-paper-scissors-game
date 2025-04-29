@@ -1,0 +1,65 @@
+<!-- ========================
+🎮 Rock Paper Scissors Game
+========================= -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--+ Meta Info & Viewport -->
+    <meta charset="UTF-8" />
+    <!-- 🔤 Universal character support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 📱 Responsive layout -->
+
+    <!--+ External CSS Link -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Rock Paper Scissors game</title>
+    <!-- 🧾 Browser tab title -->
+  </head>
+  <body>
+    <!--+ 🏷️ Page Heading -->
+    <h1>Rock Paper Scissors</h1>
+
+    <!--+ 🎯 Choices Section -->
+    <div class="choices">
+      <!-- 🪨 Rock -->
+      <div class="choice" id="rock">
+        <img src="./images/rock.png" alt="Rock" />
+      </div>
+
+      <!-- 📄 Paper -->
+      <div class="choice" id="paper">
+        <img src="./images/paper.png" alt="Paper" />
+      </div>
+
+      <!-- ✂️ Scissors -->
+      <div class="choice" id="scissors">
+        <img src="./images/scissors.png" alt="Scissors" />
+      </div>
+    </div>
+
+    <!--+ 🧮 Score Board -->
+    <div class="score-board">
+      <!-- 👤 User Score -->
+      <div class="score">
+        <p id="user-score">0</p>
+        <p>You</p>
+      </div>
+
+      <!-- 🖥️ Computer Score -->
+      <div class="score">
+        <p id="comp-score">0</p>
+        <p>Comp</p>
+      </div>
+    </div>
+
+    <!--+ 📢 Message Display -->
+    <div class="msg-container">
+      <p id="msg">Play your move</p>
+    </div>
+
+    <!--+ 🔗 External JS Link -->
+    <script src="./app.js"></script>
+  </body>
+</html>
